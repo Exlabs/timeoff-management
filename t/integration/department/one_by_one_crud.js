@@ -642,7 +642,7 @@ describe('CRUD for department secondary supervisers', function(){
       });
   });
 
-  it('click "add supervisers" button and ensure that popup witndow '+
+  it('click "add supervisers" button and ensure that popup window '+
     'has only user B and C in the list',
     function(done){
 

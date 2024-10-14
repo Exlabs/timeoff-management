@@ -10,8 +10,8 @@
 
 
       {{#each company.bank_holidays}}
-        <input type="hidden" value="{{name}}" name="name__{{@index}}">
-        <input type="hidden" value="{{as_date date}}" name="date__{{@index}}">
+        <input type="hidden" value="{{name}}" name="name__{{id}}">
+        <input type="hidden" value="{{as_date date}}" name="date__{{id}}">
       {{/each}}
 
       <div class="modal-body">
